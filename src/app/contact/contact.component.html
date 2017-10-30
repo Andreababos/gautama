@@ -1,0 +1,80 @@
+
+<div class="jumbotron jumbotron-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <h1 class="h1">{{'contact.heading' | translate}}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div  *ngIf="msg == 'OK' " class="alert alert-success alert-dismissable">
+    <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Thank you for reaching out to us!</strong> Your message was successfully sent.
+  </div>
+  <div *ngIf="msg == 'FAILED' " class="alert alert-danger alert-dismissable">
+    <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Sorry!</strong> Something came up and we couldn't send your message.
+  </div>
+    <div></div>
+</div>
+<div class="container contact-us">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="contact-form">
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">{{'contact.name' | translate}}</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+                  <input [(ngModel)]="name" type="text" name="name" class="form-control" id="name" placeholder="{{'contact.fname' | translate}}" required="required"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">{{'contact.email' | translate}}</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                  <input [(ngModel)]="email"  type="email" name="email" class="form-control" id="email" placeholder="name@domain.com" required="required"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">{{'contact.sbj' | translate}}</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-question" aria-hidden="true"></i></span>
+                  <input [(ngModel)]="subject"  type="text" name="subject" class="form-control" id="subject" placeholder="{{'contact.sbjplaceholder' | translate}}" required="required"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">{{'contact.msg' | translate}}</label>
+                <textarea  [(ngModel)]="message" name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="{{'contact.msg' | translate}}"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button (click)="onSubmit()" class="btn btn-green pull-right" >{{'contact.send' | translate}}</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-4 contact-info display-only">
+      <form >
+        <legend>SK/CZ {{'contact.contact' | translate}}</legend>
+        Michal Gábriš<br>
+        {{'contact.address' | translate}}: Tolstého 5, 811 06 <br>
+        Bratislava, Slovakia<br>
+        <p>{{'contact.email' | translate}}: michal@gautamagroup.com<br>
+          {{'contact.phone' | translate}}: +421902280036</p>
+        <br>
+        <legend>International {{'contact.contact' | translate}}</legend>
+        <p>Viktor Myslivec <br>
+          {{'contact.email' | translate}}: viktor@gautamagroup.com<br>
+          {{'contact.phone' | translate}}: +421918541532</p>
+      </form>
+    </div>
+  </div>
+</div>

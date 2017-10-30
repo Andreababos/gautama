@@ -1,0 +1,203 @@
+{
+  "menu" : {
+      "home" : "Domov",
+      "about" : "Náš príbeh",
+      "products" : "Produkty",
+      "gautama" : "GautamaGroup",
+      "contact" : "Kontakt"
+  },
+  "footer":{
+    "intHeadline": "International Contact: Viktor Myslivec",
+    "intEmail": "viktor@gautamagroup.com",
+    "intPhone": "+421918541532",
+    "skHeadline": "SK/CZ Contact: Michal Gábriš",
+    "skEmail": "michal@gautamagroup.com",
+    "skPhone": "+421902280036",
+    "skAddress": "Tolstého 5, 811 06 Bratislava, Slovakia"
+  },
+  "home": {
+        "s1headline" : "Quality By Default",
+        "s1text": "Naša spoločnosť predstavuje kvalitu na ktorú sa môžete vždy spoľahnúť. Prinášame inovatívne riešenia aby sme vám mohli poskytnúť to najlepšie vybavenie pre maximálny pôžitok.",
+        "s2headline1" : "Kto sme?",
+        "s2headline2" : "Čomu sa venujeme?",
+        "s2headline3" : "Prečo to robíme?",
+        "s2text1": "Sme mladá spoločnosť zo slovenska , ktorá prišla na trh v roku 2017 s cieľom poskytnúť fajčiarom ten najlepší zážitok prostredníctvom produktov, ktoré nemôžu nájsť nikde inde.",
+        "s2text2": "Gautama Group prináša na trh radu príslušenstva pre fajčiarov, ktoré je navrhnuté špeciálne tak, aby ich inovatívne vlastnosti zjednodušili každodenný život fajčiara, bezohľadu na to či preferuje fajčiť doma alebo vonku.",
+        "s2text3": "Z vlastnej skúsenosti poznáme aké otravné môže byť nosenie veľkej a tažkej drtičky ktorá sa iba ťažko zmestí do vačku na šortkách počas leta, alebo ako ťažké môže byť napríklad rolenie vonku. V Gautama Group je naším poslaním poskytnúť fajčiarom komfort, ktorý si zaslúžia."
+  },
+  "about": {
+    "headline" : "Náš príbeh",
+    "text": "Písal sa december 2016 a my sme spolu oslavovali stretnutie po niekoľkých mesiacoch v našom obľúbenom bare. Ako sa nám to občas stáva po pár pivách padla otázka: kto zabalí? Počas nevyhnutných príprav sme si všimli že nikto z nás nemá so sebou drtičku ani nič čo by sa dalo použiť miesto tácky. Vtedy sme si uvedomili, že napriek množstvu dostupných produktov na trhu chýbajú tie ktoré by uľahčili život fajčiarom. Pokým bolo dielo hotové vymysleli sme papieriky, ktoré by obsahovali filtre, tácku na balenie a drtičku v jednom a pritom by boli veľkosťou prijateľné na bežné nosenie od noci v meste po výlet do hôr. Od tohto okamihu sa z vymýšľania produktov stala zábavka na celú noc, ktorá časom prerástla až do založenia spoločnosti Gautama Group s.r.o., ktorá prináša inovatívne riešenia do oblasti v ktorej sú produkty takmer rovnaké už desiatky rokov."
+  },
+  "products": [
+    {
+      "id" : "1",
+      "name": "King Size Slim Papers",
+      "description": "Naše cigaretové papieriky sú nebielené, vyrobené z konopných vlákien bez použitia akýchkoľvek chemických látok. Používame organické lepidlo zo stromu Acacia (arabic gum). Ultratenké a pomaly horiace papieriky priateľské k životnému prostrediu. ",
+      "img": "product.png"
+    },
+    {
+      "id" : "2",
+      "name": "King Size Slim Papers + Tips",
+      "description": "Spojenie našich organických a nebielených King Size Slim Rolling papers so širokými filtrami vyrobenými z recyklovaného papiera poskytujúce vačší pôžitok z fajčenia. Priateľské k životnému prostrediu bez kompromisov na kvalite. ",
+      "img": "product_transparent.png"
+    },
+    {
+      "id" : "3",
+      "name": "King Size Slim Papers + Tips + Tray",
+      "description": "Balenie obsahuje tácku ktorá je jeho priamou súčasťou. Tácka drží tvar vďaka gumičke a tým poskytuje zvýšené pohodlie počas balenia. Naše 100% organické papieriky a filtre sú samozrejmosťou. ",
+      "img": "product.png"
+    },
+    {
+      "id" : "4",
+      "name": "King Size Slim Papers + Tips + Tray + Crusher",
+      "description": "Náš hlavný produkt - cigaretové papieriky ktoré obsahujú filtre, tácku a drtičku. Tento model obsahuje všetko potrebné vybavenie pričom veľkosťou iba minimálne presahuje velkosť obyčajných papierikov. Balenie je pohodlné na nosenie a poskytuje zaslúžený komfort a praktické riešenie pre každú situáciu. 100% Organické materiály najvyššej kvality sú samozrejmosťou ako pri všetkých produktoch. ",
+      "img": "product_transparent.png"
+    }
+  ],
+  "members": [
+    {
+      "id":"1",
+      "name":"Basement",
+      "description":"Lorem ipsum dolor sit amet dignissim.",
+      "country":"Slovakia",
+      "country_key":"sk",
+      "logo":"basement.png",
+      "contact_information":"https://www.facebook.com/basementdnb/?fref=ts",
+      "category":"mus"
+    },
+    {
+      "id":"2",
+      "name":"Rida Radar",
+      "description":"Ut volutpat convallis ultrices.",
+      "country":"Slovakia",
+      "country_key":"sk",
+      "logo":"ridaradar.jpeg",
+      "contact_information":"https://www.facebook.com/ridaradar420/",
+      "category":"mus"
+    },
+    {
+      "id":"3",
+      "name":"Roman Dubsky",
+      "description":"Suspendisse imperdiet nunc ac metus placerat, in dignissim leo bibendum. Suspendisse sodales orci et mattis posuere. Fusce nec cursus mauris. Praesent tempor lacus elit, sit amet lacinia ante aliquam in. Ut eros risus, rhoncus sit amet est sed, porta pellentesque purus. Nunc posuere arcu et metus interdum, vulputate viverra nisl dictum. Vivamus volutpat orci nec placerat feugiat. In volutpat massa id leo blandit, vitae dapibus augue sagittis. Suspendisse pellentesque erat eu elit eleifend, et aliquet lorem convallis. Aenean posuere, nulla sit amet volutpat venenatis, erat odio facilisis massa, ut pellentesque diam nunc vel massa. Nulla vel dolor hendrerit, malesuada neque nec, malesuada magna. Donec semper condimentum enim ut interdum. Ut a lacus euismod, placerat lectus non, fringilla nisi. Donec cursus orci ac fermentum egestas. Nunc egestas eleifend purus, ut interdum tortor hendrerit quis.",
+      "country":"Slovakia",
+      "country_key":"sk",
+      "logo":"roman.jpg",
+      "contact_information":"https://www.facebook.com/Roman-Dubsk%C3%BD-222179537960508/",
+      "category":"sport"
+    },
+    {
+      "id":"4",
+      "name":"Alir Chewing Tobacco ",
+      "description":"Morbi blandit sem at augue posuere, ac hendrerit purus ultrices. Proin nec mi vitae neque iaculis pellentesque. Aenean at finibus risus, ac efficitur sapien. Fusce elementum laoreet elementum. Nullam mollis tellus eros, vitae iaculis ligula commodo ut. Aenean vel risus sed est placerat convallis a a leo. Aenean hendrerit enim tellus, quis pharetra lacus tincidunt sagittis. Duis aliquet velit metus, nec lacinia nulla vulputate scelerisque.",
+      "country":"Slovakia",
+      "country_key":"sk",
+      "logo":"alir.png",
+      "contact_information":"https://www.facebook.com/alirtobacco/",
+      "category":"other"
+    },
+    {
+      "id":"5",
+      "name":"TOC Media and Graphic",
+      "description":"ajhsbciaksdbc qjnd",
+      "country":"Slovakia",
+      "country_key":"sk",
+      "logo":"toc.jpg",
+      "contact_information":"https://www.facebook.com/pg/TocMediaAndGraphic/photos/?ref=page_internal",
+      "category":"art"
+    },
+    {
+      "id":"6",
+      "name":"Hurricane Factory",
+      "description":"",
+      "country":"Slovakia",
+      "country_key":"sk",
+      "logo":"mato.jpg",
+      "contact_information":"https://www.facebook.com/mato.weck",
+      "category":"ent"
+    }
+  ],
+  "categories": [
+    {
+      "id":"1",
+      "name":"Hudba",
+      "key":"mus"
+    },
+    {
+      "id":"2",
+      "name":"Umenie",
+      "key":"art"
+    },
+    {
+      "id":"3",
+      "name":"Bary",
+      "key":"bar"
+    },
+    {
+      "id":"4",
+      "name":"Reštaurácie",
+      "key":"res"
+    },
+    {
+      "id":"5",
+      "name":"Športovci",
+      "key":"sport"
+    },
+    {
+      "id":"6",
+      "name":"Zábava",
+      "key":"ent"
+    },
+    {
+      "id":"7",
+      "name":"Ostatné",
+      "key":"other"
+    }
+  ],
+  "countries": [
+    {
+      "id":"1",
+      "name":"Slovakia",
+      "key":"sk"
+    },
+    {
+      "id":"2",
+      "name":"Czech Republic",
+      "key":"cz"
+    },
+    {
+      "id":"3",
+      "name":"Austria",
+      "key":"a"
+    },
+    {
+      "id":"4",
+      "name":"Hungary",
+      "key":"hu"
+    }],
+  "all":{
+    "cat": "Všetky kategórie",
+    "countries":"Všetky krajiny"
+  },
+  "gautama" : {
+    "heading": "Čo je Gautama Group? ",
+    "description": "Gautama Group je komunita v ktorej spolupracujú spoločnosti z rôznych odvetí biznisu, umelci a športovci ktorých spája rovnaká záľuba v živote. Komunita je vybudovaná na vzájomnej podpore jej členov a cieľom je napomôcť rastu jednotlivcov vďaka spolupráci. Gautama Group vytvára množstvo príležitostí a navyše napomáha vytváraniu dlhodobých a prosperujúcich vzťahov. ",
+    "info": "Ak máte záujem sa pridať do Gautama Group neváhajte nás kontaktovať pre viac informácii. ",
+    "sorry": "V tejto kategórii nie sú zatiaľ žiadne údaje na zobrazenie."
+  },
+  "contact" : {
+    "heading" : "Kontaktujte nás",
+    "contact" : "Kontakt",
+    "address" : "Adresa",
+    "phone" : "Telefón",
+    "sk" : "Slovensko",
+    "msg" : "Správa",
+    "send" : "Odoslať správu",
+    "name" : "Meno",
+    "fname" : "Celé meno",
+    "email" : "Emailová adresa",
+    "sbj" : "Predmet",
+    "sbjplaceholder" : "Dôvod prečo píšem"
+  }
+
+}

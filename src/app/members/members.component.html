@@ -1,0 +1,42 @@
+<div  id="gautama"  class="container ">
+  <div class="row wrap2">
+    <div class="col-md-offset-2 col-md-8">
+      <p class="r-headline">{{'gautama.heading' | translate }}</p>
+      <p>{{ 'gautama.description' | translate}}</p>
+      <p>{{ 'gautama.info' | translate}}</p>
+      <img class="img-responsive" alt="gautama group logo" src="images/buddha.png"/>
+    </div>
+  </div>
+
+</div>
+
+<div class=categories>
+    <label class="mr-sm-2">Filter: </label>
+    <select [(ngModel)]= "category" class="custom-select mb-2 mr-sm-2 mb-sm-0" name="filter">
+      <option value="">{{ 'all.cat' | translate }}</option>
+      <option *ngFor="let category of cat" value="{{ category.key }}">{{ category.name }}</option>
+    </select>
+    <select [(ngModel)]= "country" class="custom-select mb-2 mr-sm-2 mb-sm-0" name="filter">
+      <option value="">{{ 'all.countries' | translate }}</option>
+      <option *ngFor="let country of countries" value="{{ country.key }}">{{ country.name }}</option>
+    </select>
+  <button class="btn btn-green btn-small" (click)="filterMembers()"><i class="fa fa-filter" aria-hidden="true"></i> filter</button>
+</div>
+
+
+<div *ngIf="members" id="members">
+  <div class="sorry" *ngIf="members.length < 1"> {{'gautama.sorry' | translate}}</div>
+  <div class="load"></div>
+    <div *ngFor="let member of members" class="col-sm-6 col-md-6 col-lg-4 member">
+        <img class="img-responsive" alt="gautama members" src="images/{{member.logo}}"/>
+        <a href="{{member.contactInfo}}">
+          <div class="overlay">
+            <div class="text">
+              <p > {{member.country}}</p>
+              {{member.name}}
+            </div>
+          </div>
+        </a>
+    </div>
+</div>
+
