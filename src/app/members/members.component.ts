@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ContentService } from '../content.service';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 
 
@@ -25,13 +24,14 @@ export class MembersComponent implements OnInit {
     this.loadMembers();
     this.loadCategories();
     this.loadCountries();
+    window.scrollTo(0, 0);
   }
 
-  public members: any;
-  public catMembers = [];
-  public filteredMembers = [];
-  public cat: any;
-  public countries: any;
+  public members: Array<any> = [];
+  public catMembers: Array<any> = [];
+  public filteredMembers: Array<any> = [];
+  public cat: Array<any> = [];
+  public countries: Array<any> = [];
   public category: string = "";
   public country: string = "";
 

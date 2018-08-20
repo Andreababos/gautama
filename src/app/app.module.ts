@@ -15,6 +15,9 @@ import { ProductsComponent } from './products/products.component';
 import { MembersComponent } from './members/members.component';
 import { ContactComponent } from './contact/contact.component';
 import { AgeverifierComponent } from './ageverifier/ageverifier.component';
+import { VerifyGuardService } from './verify-guard.service';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -46,7 +49,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [HttpClient],
+  providers: [HttpClient, VerifyGuardService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

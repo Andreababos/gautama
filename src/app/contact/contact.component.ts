@@ -24,10 +24,12 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
 
 
   public onSubmit() {
     this.contentService.sendEmail(this.name, this.email, this.subject, this.message).subscribe(data => this.msg = data);
+    $("form").trigger("reset");
   }
 }

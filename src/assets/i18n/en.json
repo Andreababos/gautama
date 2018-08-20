@@ -21,39 +21,33 @@
         "s2headline1" : "Who we are:",
         "s2headline2" : "What we do:",
         "s2headline3" : "Why we do this:",
-        "s2text1": "We are quality you can rely on. We innovate to provide you with the excellence in equipment for the best possible experience.",
-        "s2text2": "Gautama Group gives you a unique product to make your experience better than it ever was before by providing innovative solutions for smoking equipment and always using only the best and sustainable materials, whether you prefer to smoke at home, outside, or in nature.",
-        "s2text3": "We know on our own how annoying it can be to carry around big and heavy grinder which only hardly fits into pocket on shorts during the summer or how difficult it is to roll outside, no matter if we are talking about city or middle of the forest on hiking trip. We feel the need to provide market with solutions all smokers deserve to have."
+        "s2text1": "We are a young Slovakian company which came to the market in 2017 to give smokers the best possible enjoyment through products they can not find anywhere else.",
+        "s2text2": "Gautama Group offers a range of smoking accessories and innovative features designed specifically to simplify smokers’ daily rituals, while always using only the best and sustainable materials.",
+        "s2text3": "From our own experience, we know how annoying it can be to wear a heavy crusher that barely fits into your pocket and how difficult it can be to roll outside. In Gautama Group, our mission is to provide solutions all smokers deserve to have."
     },
   "about": {
         "headline" : "Our story",
-        "text": "Our team was celebrating a reunion after a few months without seeing each other at our favorite bar back in December 2016. As it usually happens after a couple of beers, one of us asked the always important question: “Who’s gonna roll?” While we do not remember who the lucky one to roll was, we do remember that during all the necessary preparation it was realized that none of us had a crusher or anything that could be used as a mixing tray. At the same time, we realized that despite many products available on the market, there was still a need for something that would simplify the daily life of a smoker even more, and if there was such a product, it was not easy to find. So before our “masterpiece” of the evening was finished, we came up with an idea of rolling papers which contain a filter, tray and crusher all in one  package that can fit comfortably in a pocket. From this moment on, inventing new products like this became our nighttime entertainment. This small activity that we would partake in is how our company Gautama Group s.r.o. became established. We are here to provide innovative solutions to an area of products that have been nearly unchanged for decades. "
+        "text": "Our team was celebrating a reunion after a few months without seeing each other at our favorite bar back in December 2016. As it usually happens after a couple of beers, one of us asked the always important question: “Who’s gonna roll?” While we do not remember who rolled on that one lucky night, we do remember that during all the necessary preparation we realized that none of us had a crusher or anything that could be used as a mixing tray. At the same time, we realized that despite many products available on the market, there was still a need for a product that would simplify the daily life of a smoker. If such a product did exist, it was not easy to find. So before our “masterpiece” of the evening was finished, with an all in one combined product containing rolling papers, a filter, tray and a crusher, all of which can fit comfortably in a single pocket. From that moment on, inventing new products that are convenient and distinctive became our nighttime entertainment (a daily ritual). This small activity that we would partake in is how our company Gautama Group s.r.o. became established. We are here to provide innovative solutions to an area of products that have been nearly unchanged for decades. "
     },
   "products": [
     {
       "id" : "1",
       "name": "King Size Slim Papers",
       "description": "Our cigarette papers are unbleached, made of pure hemp without use of any chemicals or harmful substances. We use organic glue from the Acacia tree (arabic gum). Ultra-slim and slow-burning paper that is friendly to the environment.",
-      "img": "product.png"
+      "img": "product1.png"
     },
     {
       "id" : "2",
       "name": "King Size Slim Papers + Tips",
       "description": "We combine our organic and unbleached King Size Slim Rolling papers with wide filters made from recycled paper to give you more enjoyment from smoking. Friendly to the environment without compromising quality. ",
-      "img": "product_transparent.png"
+      "img": "product3.png"
     },
     {
       "id" : "3",
-      "name": "King Size Slim Papers + Tips + Tray",
-      "description": "The tray comes directly attached on the packaging. The tray holds it's shape with the help of a  rubber band so to provide an increased comfort while rolling. And of course, our 100% organic papers and filters are always standard.",
-      "img": "product.png"
-    },
-    {
-      "id" : "4",
       "name": "King Size Slim Papers + Tips + Tray + Crusher",
       "description": "Our main product - cigarette paper containing filters, tray and crusher. This model contains all the necessary equipment, the size of which only slightly exceeds the size of classic rolling papers. The packaging is comfortable to carry around and provides desirable comfort and a practical solution for every situation. As always, 100% Organic materials of the highest quality are commonplace for all elements of this product.",
-      "img": "product_transparent.png"
-    }
+      "img": "product.png"
+    } 
   ],
   "members": [
     {
@@ -64,57 +58,41 @@
       "country_key":"sk",
       "logo":"basement.png",
       "contactInfo":"https://www.facebook.com/basementdnb/?fref=ts",
-      "category":"mus"
+      "category":"mus",
+      "category_name":"Musician"
     },
     {
       "id":"2",
-      "name":"Rida Radar",
-      "description":"Ut volutpat convallis ultrices.",
-      "country":"Slovakia",
-      "country_key":"sk",
-      "logo":"ridaradar.jpeg",
-      "contactInfo":"https://www.facebook.com/ridaradar420/",
-      "category":"mus"
-    },
-    {
-      "id":"3",
-      "name":"Roman Dubsky",
-      "description":"Suspendisse imperdiet nunc ac metus placerat, in dignissim leo bibendum. Suspendisse sodales orci et mattis posuere. Fusce nec cursus mauris. Praesent tempor lacus elit, sit amet lacinia ante aliquam in. Ut eros risus, rhoncus sit amet est sed, porta pellentesque purus. Nunc posuere arcu et metus interdum, vulputate viverra nisl dictum. Vivamus volutpat orci nec placerat feugiat. In volutpat massa id leo blandit, vitae dapibus augue sagittis. Suspendisse pellentesque erat eu elit eleifend, et aliquet lorem convallis. Aenean posuere, nulla sit amet volutpat venenatis, erat odio facilisis massa, ut pellentesque diam nunc vel massa. Nulla vel dolor hendrerit, malesuada neque nec, malesuada magna. Donec semper condimentum enim ut interdum. Ut a lacus euismod, placerat lectus non, fringilla nisi. Donec cursus orci ac fermentum egestas. Nunc egestas eleifend purus, ut interdum tortor hendrerit quis.",
-      "country":"Slovakia",
-      "country_key":"sk",
-      "logo":"roman.jpg",
-      "contactInfo":"https://www.facebook.com/Roman-Dubsk%C3%BD-222179537960508/",
-      "category":"sport"
-    },
-    {
-      "id":"4",
       "name":"Alir Chewing Tobacco ",
       "description":"Morbi blandit sem at augue posuere, ac hendrerit purus ultrices. Proin nec mi vitae neque iaculis pellentesque. Aenean at finibus risus, ac efficitur sapien. Fusce elementum laoreet elementum. Nullam mollis tellus eros, vitae iaculis ligula commodo ut. Aenean vel risus sed est placerat convallis a a leo. Aenean hendrerit enim tellus, quis pharetra lacus tincidunt sagittis. Duis aliquet velit metus, nec lacinia nulla vulputate scelerisque.",
       "country":"Slovakia",
       "country_key":"sk",
       "logo":"alir.png",
       "contactInfo":"https://www.facebook.com/alirtobacco/",
-      "category":"other"
+      "category":"other",
+      "category_name":"Other"
     },
     {
-      "id":"5",
-      "name":"TOC Media and Graphic",
-      "description":"ajhsbciaksdbc qjnd",
-      "country":"Slovakia",
-      "country_key":"sk",
-      "logo":"toc.jpg",
-      "contactInfo":"https://www.facebook.com/pg/TocMediaAndGraphic/photos/?ref=page_internal",
-      "category":"art"
-    },
-    {
-      "id":"6",
-      "name":"Hurricane Factory",
+      "id":"3",
+      "name":"Clean Murda",
       "description":"",
       "country":"Slovakia",
       "country_key":"sk",
-      "logo":"mato.jpg",
-      "contactInfo":"https://www.facebook.com/mato.weck",
-      "category":"ent"
+      "logo":"clean_murda.png",
+      "contactInfo":"https://www.instagram.com/clean.murda/",
+      "category":"design",
+      "category_name":"Designer"
+    },
+    {
+      "id":"4",
+      "name":"Martin Faragó",
+      "description":"",
+      "country":"Hungary",
+      "country_key":"hu",
+      "logo":"martin.png",
+      "contactInfo":"https://www.instagram.com/martinfarago/",
+      "category":"design",
+      "category_name":"Designer"
     }
     ],
   "categories": [
@@ -150,6 +128,11 @@
     },
     {
       "id":"7",
+      "name":"Designers",
+      "key":"design"
+    },
+    {
+      "id":"8",
       "name":"Other",
       "key":"other"
     }

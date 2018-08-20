@@ -24,13 +24,12 @@ export class ContentService {
 
 
   public sendEmail(name, email, subject, message) {
-    console.log("sendEmail function has been called!"+name);
     let params: URLSearchParams = new URLSearchParams();
     params.set('name', name);
     params.set('email', email);
     params.set('subject', subject);
     params.set('message', message);
-    return this.http.get('https://alfuwfemao.localtunnel.me/api/sendEmail', {search: params})
+    return this.http.get('https://gautamamailserver.herokuapp.com/sendEmail', {search: params})
       .map(res => res.json().message)
       .catch(this.handleError);
   }
@@ -40,6 +39,7 @@ export class ContentService {
 
     errorMessage = error.message ? error.message : error.toString();
 
+    console.log(errorMessage);
     // In real world application, call to log error to remote server
     // logError(error);
 

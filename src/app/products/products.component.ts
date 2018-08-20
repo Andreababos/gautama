@@ -1,7 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 
-
 import * as $ from 'jquery';
 
 @Component({
@@ -19,10 +18,11 @@ export class ProductsComponent implements OnInit {
       });
   }
 
-  public products = [];
+  public products: Array<any> = [];
 
   ngOnInit() {
     this.loadProducts();
+    window.scrollTo(0, 0);
   }
 
   public loadProducts(){
@@ -30,18 +30,15 @@ export class ProductsComponent implements OnInit {
   }
 
 
-
   ngAfterViewInit(){
-    $(document).ready(function(){
-      $('#scrollspy').on("click", "a", function (event) {
-        event.preventDefault();
-        var id = $(this).attr('href');
-        var element = $('div' + id);
-        $('html, body').stop().animate({
-          scrollTop: element.offset().top
-        }, 1000);
-      });
-    });
+    $('#scrollspy').on("click", "a", function (event) {
+      event.preventDefault();
+      var id = $(this).attr('href');
+      var element = $('div' + id);
+      $('html, body').stop().animate({
+        scrollTop: element.offset().top
+      }, 1000);
+    })
   }
 
 }

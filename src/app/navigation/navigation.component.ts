@@ -1,7 +1,7 @@
 import { Component, OnInit, EventEmitter, Output  } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
-
+declare var $:any;
 
 @Component({
   selector: 'app-menu',
@@ -11,13 +11,18 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor(private translate: TranslateService) { }
+  constructor(public translate: TranslateService) {
+
+  }
 
   // @Output() onLangChange: EventEmitter<any> = new EventEmitter<any>();
-
+  
 
 
   ngOnInit() {
+    $('.navbar-collapse a').click( function (){
+      (<any>$('.navbar-collapse')).collapse('hide')
+    })
   }
 
 

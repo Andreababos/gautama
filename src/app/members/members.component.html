@@ -4,7 +4,7 @@
       <p class="r-headline">{{'gautama.heading' | translate }}</p>
       <p>{{ 'gautama.description' | translate}}</p>
       <p>{{ 'gautama.info' | translate}}</p>
-      <img class="img-responsive" alt="gautama group logo" src="images/buddha.png"/>
+      <img class="img-responsive" alt="gautama group logo" src="../../assets/images/buddha.png"/>
     </div>
   </div>
 
@@ -28,12 +28,13 @@
   <div class="sorry" *ngIf="members.length < 1"> {{'gautama.sorry' | translate}}</div>
   <div class="load"></div>
     <div *ngFor="let member of members" class="col-sm-6 col-md-6 col-lg-4 member">
-        <img class="img-responsive" alt="gautama members" src="images/{{member.logo}}"/>
+        <img class="img-responsive" alt="gautama members" src="../../assets/images/{{member.logo}}"/>
         <a href="{{member.contactInfo}}">
           <div class="overlay">
             <div class="text">
-              <p > {{member.country}}</p>
-              {{member.name}}
+              <p> {{member.country}}</p>
+              {{member.name}} 
+              <p> {{member.category_name}}</p>
             </div>
           </div>
         </a>

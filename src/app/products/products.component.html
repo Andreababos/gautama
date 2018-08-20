@@ -4,18 +4,21 @@
   </ul>
 </div>
 
-<div class="product-intro container-fluid shadow-h">
-  <img class="logoproduct img-responsive" src="images/logo.png">
+<div id="product-intro" class="intro container-fluid">
+    <img class="logoproduct img-responsive" src="../../assets/images/coverlogo.png">
+    <p>Rolling papers & smoking accessories</p>
 </div>
 
 <div *ngFor=" let product of products" id="paper{{product.id}}" class="product-section container-fluid shadow-h">
+  <div class='olay'><p class="r-headline">Coming soon...</p></div>
   <div class="row v-align-middle">
     <div class="col-sm-offset-2 col-sm-6 product-description">
       <h2>{{product.name}}</h2>
       <span translate>{{product.description}}</span>
     </div>
     <div class="col-sm-4 illustration ">
-      <img class="img-responsive" alt="{{product.name}}" src="images/{{product.img}}"/>
+      <img class="img-responsive" alt="{{product.name}}" src="../../assets/images/{{product.img}}"/>
     </div>
   </div>
 </div>
+

@@ -34,25 +34,19 @@
       "id" : "1",
       "name": "King Size Slim Papers",
       "description": "Naše cigaretové papieriky sú nebielené, vyrobené z konopných vlákien bez použitia akýchkoľvek chemických látok. Používame organické lepidlo zo stromu Acacia (arabic gum). Ultratenké a pomaly horiace papieriky priateľské k životnému prostrediu. ",
-      "img": "product.png"
+      "img": "product1.png"
     },
     {
       "id" : "2",
       "name": "King Size Slim Papers + Tips",
       "description": "Spojenie našich organických a nebielených King Size Slim Rolling papers so širokými filtrami vyrobenými z recyklovaného papiera poskytujúce vačší pôžitok z fajčenia. Priateľské k životnému prostrediu bez kompromisov na kvalite. ",
-      "img": "product_transparent.png"
+      "img": "product3.png"
     },
     {
       "id" : "3",
-      "name": "King Size Slim Papers + Tips + Tray",
-      "description": "Balenie obsahuje tácku ktorá je jeho priamou súčasťou. Tácka drží tvar vďaka gumičke a tým poskytuje zvýšené pohodlie počas balenia. Naše 100% organické papieriky a filtre sú samozrejmosťou. ",
-      "img": "product.png"
-    },
-    {
-      "id" : "4",
       "name": "King Size Slim Papers + Tips + Tray + Crusher",
       "description": "Náš hlavný produkt - cigaretové papieriky ktoré obsahujú filtre, tácku a drtičku. Tento model obsahuje všetko potrebné vybavenie pričom veľkosťou iba minimálne presahuje velkosť obyčajných papierikov. Balenie je pohodlné na nosenie a poskytuje zaslúžený komfort a praktické riešenie pre každú situáciu. 100% Organické materiály najvyššej kvality sú samozrejmosťou ako pri všetkých produktoch. ",
-      "img": "product_transparent.png"
+      "img": "product.png"
     }
   ],
   "members": [
@@ -64,57 +58,41 @@
       "country_key":"sk",
       "logo":"basement.png",
       "contact_information":"https://www.facebook.com/basementdnb/?fref=ts",
-      "category":"mus"
+      "category":"mus",
+      "category_name":"Hudba"
     },
     {
       "id":"2",
-      "name":"Rida Radar",
-      "description":"Ut volutpat convallis ultrices.",
-      "country":"Slovakia",
-      "country_key":"sk",
-      "logo":"ridaradar.jpeg",
-      "contact_information":"https://www.facebook.com/ridaradar420/",
-      "category":"mus"
-    },
-    {
-      "id":"3",
-      "name":"Roman Dubsky",
-      "description":"Suspendisse imperdiet nunc ac metus placerat, in dignissim leo bibendum. Suspendisse sodales orci et mattis posuere. Fusce nec cursus mauris. Praesent tempor lacus elit, sit amet lacinia ante aliquam in. Ut eros risus, rhoncus sit amet est sed, porta pellentesque purus. Nunc posuere arcu et metus interdum, vulputate viverra nisl dictum. Vivamus volutpat orci nec placerat feugiat. In volutpat massa id leo blandit, vitae dapibus augue sagittis. Suspendisse pellentesque erat eu elit eleifend, et aliquet lorem convallis. Aenean posuere, nulla sit amet volutpat venenatis, erat odio facilisis massa, ut pellentesque diam nunc vel massa. Nulla vel dolor hendrerit, malesuada neque nec, malesuada magna. Donec semper condimentum enim ut interdum. Ut a lacus euismod, placerat lectus non, fringilla nisi. Donec cursus orci ac fermentum egestas. Nunc egestas eleifend purus, ut interdum tortor hendrerit quis.",
-      "country":"Slovakia",
-      "country_key":"sk",
-      "logo":"roman.jpg",
-      "contact_information":"https://www.facebook.com/Roman-Dubsk%C3%BD-222179537960508/",
-      "category":"sport"
-    },
-    {
-      "id":"4",
       "name":"Alir Chewing Tobacco ",
       "description":"Morbi blandit sem at augue posuere, ac hendrerit purus ultrices. Proin nec mi vitae neque iaculis pellentesque. Aenean at finibus risus, ac efficitur sapien. Fusce elementum laoreet elementum. Nullam mollis tellus eros, vitae iaculis ligula commodo ut. Aenean vel risus sed est placerat convallis a a leo. Aenean hendrerit enim tellus, quis pharetra lacus tincidunt sagittis. Duis aliquet velit metus, nec lacinia nulla vulputate scelerisque.",
       "country":"Slovakia",
       "country_key":"sk",
       "logo":"alir.png",
       "contact_information":"https://www.facebook.com/alirtobacco/",
-      "category":"other"
+      "category":"other",
+      "category_name":"Ostatné"
     },
     {
-      "id":"5",
-      "name":"TOC Media and Graphic",
-      "description":"ajhsbciaksdbc qjnd",
-      "country":"Slovakia",
-      "country_key":"sk",
-      "logo":"toc.jpg",
-      "contact_information":"https://www.facebook.com/pg/TocMediaAndGraphic/photos/?ref=page_internal",
-      "category":"art"
-    },
-    {
-      "id":"6",
-      "name":"Hurricane Factory",
+      "id":"3",
+      "name":"Clean Murda",
       "description":"",
       "country":"Slovakia",
       "country_key":"sk",
-      "logo":"mato.jpg",
-      "contact_information":"https://www.facebook.com/mato.weck",
-      "category":"ent"
+      "logo":"clean_murda.png",
+      "contactInfo":"https://www.instagram.com/clean.murda/",
+      "category":"design",
+      "category_name":"Dizajnér"
+    },
+    {
+      "id":"4",
+      "name":"Martin Faragó",
+      "description":"",
+      "country":"Hungary",
+      "country_key":"hu",
+      "logo":"martin.png",
+      "contactInfo":"https://www.instagram.com/martinfarago/",
+      "category":"design",
+      "category_name":"Dizajnér"
     }
   ],
   "categories": [
@@ -150,6 +128,11 @@
     },
     {
       "id":"7",
+      "name":"Dizajnér",
+      "key":"design"
+    },
+    {
+      "id":"8",
       "name":"Ostatné",
       "key":"other"
     }

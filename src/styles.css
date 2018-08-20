@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 .screen-only{
   display:none;
 }
+.pull-left{
+  float:left;
+}
 /*
 preloader and Age verifier styling
  */
@@ -219,14 +222,19 @@ Front page - first section
  */
 #intro{
   height: 75vh;
+  width:100vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 .logo{
-  position: absolute;
-  left: 50%;
-  top:35%;
-  transform: translate(-50%, -50%);
-  max-width: 30%;
+  max-width: 500px;
+}
+#intro p{
+  color:#5A7666;
+  text-align: center;
+  font-size:25px;
 }
 /*
 Front page - second section
@@ -276,7 +284,7 @@ Front page - third section
 Footer styling
  */
 footer{
-  background-image: url(images/julcsi.png);
+  background-image: url(assets/images/julcsi.png);
   background-size:cover;
   color: white;
   min-height: 20vh;
@@ -285,6 +293,17 @@ footer{
   padding-top: 5%;
   padding-bottom: 3%;
   max-width: 100vw;
+  z-index: 100;
+  position: relative;
+}
+footer a{
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:hover{
+  color: white;
+  text-decoration: underline;
 }
 footer ul{
   text-decoration: none;
@@ -364,20 +383,22 @@ Products page
   background-color: #eaeaea;
   color: #c6a48b;
 }
-.product-intro{
-  display: table;
-  background-image: url('images/marcsi.png');
-  width: 100%;
-  height: 100vh;
-  padding-left: 20%;
-  z-index: 100;
+#product-intro{
+  background-image: url('assets/images/marcsi.png');
+  height: 70vh;
+  width:100vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#product-intro p{
+color:#5A7666;
+text-align: center;
+font-size:25px;
 }
 .logoproduct{
-  position: absolute;
-  left: 40%;
-  top:50%;
-  transform: translate(-50%, -50%);
-  max-height: 200px;
+  max-height: 150px;
 }
 #scrollspy{
   z-index: 99;
@@ -410,8 +431,25 @@ Products page
   transition-duration: 1s;
   color: #333333;
 }
-
-
+#paper3 .olay{
+  background-color: rgba(0, 0, 0, .8);
+  color:white;
+  width: 82vw;
+  height: 50vh;
+  z-index: 98;
+  position: absolute;
+  left: 17vw;
+  text-align: center;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.olay{
+  display: none;
+}
+#paper3 row{
+  z-index: 90;
+}
 /*
 Gautama group page
 */
@@ -455,7 +493,7 @@ Gautama group page
 }
 .answer{
   height: 100vh;
-  background-image: url('images/marcsi.png');
+  background-image: url('assets/images/marcsi.png');
 }
 .answer p{
   position: absolute;
@@ -574,7 +612,7 @@ Gautama group page
 About us page
 */
 .about-us{
-  background-image: url('images/productbg.png');
+  background-image: url('assets/images/productbg.png');
   background-size: cover;
   padding-top: 6%;
   min-height: 100vh;
@@ -620,6 +658,7 @@ Tablet and phone
   }
   .navbar-collapse{
     padding: 0px;
+    max-width: 100vw;
   }
   .social-media{
     background-color: white;
@@ -648,6 +687,23 @@ Tablet and phone
   }
   .logo {
     max-width: 100%;
+  }
+  #paper3 .olay{
+    background-color: rgba(0, 0, 0, .8);
+    color:white;
+    width: 100vw;
+    height: 70vh;
+    z-index: 98;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    display: grid;
+  }
+  .lang{
+    position: absolute;
+    left: 20px;
+    margin-top:15px;
+    width: 200px;
   }
 }
 @media (max-width: 1050px){

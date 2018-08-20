@@ -2,6 +2,10 @@
   <div class="container-fluid">
     <!-- toggle for mobile display -->
     <div class="navbar-header">
+        <ul class="nav navbar-nav mobile-only lang">
+            <li (click)="translate.use('sk')" class="pull-left"><img src="../../assets/images/sk.jpg"></li>
+            <li (click)="translate.use('en')" class="pull-left"><img src="../../assets/images/en.png"></li>
+          </ul>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -16,16 +20,16 @@
         <li class="social brown pull-left"><a href="https://www.facebook.com/GautamaGroup/?fref=ts"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a></li>
       </ul>
       <ul class="nav navbar-nav green">
-        <li class="mobile-only"><a routerLink="/home">{{ 'menu.home' | translate }}</a></li>
-        <li><a routerLink="/about">{{ 'menu.about' | translate }}</a></li>
-        <li><a routerLink="/products">{{ 'menu.products' | translate }}</a></li>
-        <li class="homelogo display-only"><a routerLink="/home"><img src="images/gautama.png"></a></li>
-        <li><a routerLink="/contact">{{ 'menu.contact' | translate }}</a></li>
-        <li><a routerLink="/gautama">{{ 'menu.gautama' | translate }}</a></li>
+        <li class="mobile-only"><a routerLink="/home" >{{ 'menu.home' | translate }}</a></li>
+        <li><a routerLink="/about"  >{{ 'menu.about' | translate }}</a></li>
+        <li><a routerLink="/products" >{{ 'menu.products' | translate }}</a></li>
+        <li class="homelogo display-only"><a routerLink="/home"><img src="../../assets/images/gautama.png"></a></li>
+        <li><a routerLink="/contact" >{{ 'menu.contact' | translate }}</a></li>
+        <li><a routerLink="/gautama" >{{ 'menu.gautama' | translate }}</a></li>
       </ul>
-      <ul class="nav navbar-nav lang">
-        <li (click)="translate.use('sk')" class="pull-right"><img src="../../images/sk.jpg"></li>
-        <li (click)="translate.use('en')" class="pull-right"><img src="../../images/en.png"></li>
+      <ul class="nav navbar-nav display-only lang">
+        <li (click)="translate.use('sk')" class="pull-right"><img src="../../assets/images/sk.jpg"></li>
+        <li (click)="translate.use('en')" class="pull-right"><img src="../../assets/images/en.png"></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

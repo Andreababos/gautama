@@ -1,4 +1,6 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { Router, CanActivate } from '@angular/router';
+
 import * as $ from 'jquery';
 @Component({
   selector: 'app-ageverifier',
@@ -9,7 +11,7 @@ export class AgeverifierComponent implements OnInit {
 
   @Output() remove: EventEmitter<any> = new EventEmitter();
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   public y1:number;
   public y2:number;
@@ -133,6 +135,7 @@ export class AgeverifierComponent implements OnInit {
       this.remove.emit(false);
       this.setCookie();
       $(".agVer").addClass("hidden");
+      this.router.navigate(['']);
     }
 
     public setCookie() {
@@ -141,5 +144,6 @@ export class AgeverifierComponent implements OnInit {
       let dateString = date.toUTCString();
       document.cookie = "verified = true; expires=" + dateString + "; path=/";
     }
+
 
 }

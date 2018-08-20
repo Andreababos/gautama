@@ -1,0 +1,67 @@
+{
+    "en": [
+
+    {
+        "id":"2",
+        "name":"Rida Radar",
+        "description":"Ut volutpat convallis ultrices.",
+        "country":"Slovakia",
+        "country_key":"sk",
+        "logo":"ridaradar.jpeg",
+        "contactInfo":"https://www.facebook.com/ridaradar420/",
+        "category":"mus"
+      },
+      {
+        "id":"6",
+        "name":"Hurricane Factory",
+        "description":"",
+        "country":"Slovakia",
+        "country_key":"sk",
+        "logo":"mato.jpg",
+        "contactInfo":"https://www.facebook.com/mato.weck",
+        "category":"ent"
+      },
+      {
+        "id":"2",
+        "name":"Roman Dubsky",
+        "description":"Suspendisse imperdiet nunc ac metus placerat, in dignissim leo bibendum. Suspendisse sodales orci et mattis posuere. Fusce nec cursus mauris. Praesent tempor lacus elit, sit amet lacinia ante aliquam in. Ut eros risus, rhoncus sit amet est sed, porta pellentesque purus. Nunc posuere arcu et metus interdum, vulputate viverra nisl dictum. Vivamus volutpat orci nec placerat feugiat. In volutpat massa id leo blandit, vitae dapibus augue sagittis. Suspendisse pellentesque erat eu elit eleifend, et aliquet lorem convallis. Aenean posuere, nulla sit amet volutpat venenatis, erat odio facilisis massa, ut pellentesque diam nunc vel massa. Nulla vel dolor hendrerit, malesuada neque nec, malesuada magna. Donec semper condimentum enim ut interdum. Ut a lacus euismod, placerat lectus non, fringilla nisi. Donec cursus orci ac fermentum egestas. Nunc egestas eleifend purus, ut interdum tortor hendrerit quis.",
+        "country":"Slovakia",
+        "country_key":"sk",
+        "logo":"roman.jpg",
+        "contactInfo":"https://www.facebook.com/Roman-Dubsk%C3%BD-222179537960508/",
+        "category":"sport"
+      }
+    ],
+    "sk": [
+        {
+            "id":"2",
+            "name":"Rida Radar",
+            "description":"Ut volutpat convallis ultrices.",
+            "country":"Slovakia",
+            "country_key":"sk",
+            "logo":"ridaradar.jpeg",
+            "contact_information":"https://www.facebook.com/ridaradar420/",
+            "category":"mus"
+          },
+          {
+            "id":"3",
+            "name":"Roman Dubsky",
+            "description":"Suspendisse imperdiet nunc ac metus placerat, in dignissim leo bibendum. Suspendisse sodales orci et mattis posuere. Fusce nec cursus mauris. Praesent tempor lacus elit, sit amet lacinia ante aliquam in. Ut eros risus, rhoncus sit amet est sed, porta pellentesque purus. Nunc posuere arcu et metus interdum, vulputate viverra nisl dictum. Vivamus volutpat orci nec placerat feugiat. In volutpat massa id leo blandit, vitae dapibus augue sagittis. Suspendisse pellentesque erat eu elit eleifend, et aliquet lorem convallis. Aenean posuere, nulla sit amet volutpat venenatis, erat odio facilisis massa, ut pellentesque diam nunc vel massa. Nulla vel dolor hendrerit, malesuada neque nec, malesuada magna. Donec semper condimentum enim ut interdum. Ut a lacus euismod, placerat lectus non, fringilla nisi. Donec cursus orci ac fermentum egestas. Nunc egestas eleifend purus, ut interdum tortor hendrerit quis.",
+            "country":"Slovakia",
+            "country_key":"sk",
+            "logo":"roman.jpg",
+            "contact_information":"https://www.facebook.com/Roman-Dubsk%C3%BD-222179537960508/",
+            "category":"sport"
+          },
+          {
+            "id":"6",
+            "name":"Hurricane Factory",
+            "description":"",
+            "country":"Slovakia",
+            "country_key":"sk",
+            "logo":"mato.jpg",
+            "contact_information":"https://www.facebook.com/mato.weck",
+            "category":"ent"
+          }
+    ]
+}
