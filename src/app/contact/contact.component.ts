@@ -17,6 +17,7 @@ export class ContactComponent implements OnInit {
   public email : string;
   public subject : string;
   public message : string;
+  public recaptcha : boolean = false;
 
   public constructor(private http: Http,
                      private contentService: ContentService) {
@@ -29,7 +30,22 @@ export class ContactComponent implements OnInit {
 
 
   public onSubmit() {
-    this.contentService.sendEmail(this.name, this.email, this.subject, this.message).subscribe(data => this.msg = data);
-    $("form").trigger("reset");
+    if (typeof(this.name) != 'undefined' && typeof(this.email) != 'undefined' &&  typeof(this.subject) != 'undefined' &&  typeof(this.message) != 'undefined' && this.recaptcha == true){
+      this.contentService.sendEmail(this.name, this.email, this.subject, this.message).subscribe(data => this.msg = data);
+      if (this.msg == 'OK'){
+        $("form").trigger("reset");
+        this.recaptcha = false;
+      }
+    } else{
+      this.msg = 'MISSING'
+    }
   }
+
+  public resolved(captchaResponse: string) {
+    console.log(`Resolved captcha with response ${captchaResponse}:`);
+    if (captchaResponse !== null){
+      this.recaptcha = true;
+    }
+}
+
 }

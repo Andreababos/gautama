@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AgeverifierComponent } from './ageverifier/ageverifier.component';
 import { VerifyGuardService } from './verify-guard.service';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { RecaptchaModule } from 'ng-recaptcha';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -41,6 +42,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FormsModule,
     HttpModule,
     AppRoutingModule,
+    RecaptchaModule.forRoot(),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

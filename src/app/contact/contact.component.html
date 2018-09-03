@@ -17,6 +17,10 @@
     <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
     <strong>Sorry!</strong> Something came up and we couldn't send your message.
   </div>
+  <div *ngIf="msg == 'MISSING' " class="alert alert-danger alert-dismissable">
+    <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Sorry!</strong> Invalid credentials
+  </div>
     <div></div>
 </div>
 <div class="container contact-us">
@@ -55,7 +59,13 @@
               </div>
             </div>
             <div class="col-md-12">
-              <button (click)="onSubmit()" class="btn btn-green pull-right" >{{'contact.send' | translate}}</button>
+              <div class="form-group">
+                <re-captcha (resolved)="resolved($event)" siteKey="6Lesi20UAAAAADPlZvDKzVXRzM7z8nvJftchHx1X"></re-captcha>
+                <!-- <div class="g-recaptcha" data-sitekey="6Lesi20UAAAAADPlZvDKzVXRzM7z8nvJftchHx1X" data-callback="successRecaptcha()"></div>   -->
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button (click)="onSubmit()" type="submit" class="btn btn-green pull-right" >{{'contact.send' | translate}}</button>
             </div>
           </div>
         </form>
